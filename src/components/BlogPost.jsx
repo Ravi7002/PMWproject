@@ -8,7 +8,7 @@ const BlogPost = () => {
                 <div className="post-meta">
                     <span className="category">Social Policy & Health</span>
                     <span className="separator">•</span>
-                    <span className="read-time">6 min read</span>
+                    <span className="read-time">8 min read</span>
                 </div>
                 <h1 className="post-title">Why Indonesia Needs More Than Free Lunch to Build Stronger Human Resources</h1>
                 <div className="author-meta">
@@ -26,7 +26,19 @@ const BlogPost = () => {
 
             <div className="post-content container">
                 <p className="lead">
-                    The launch of the Makan Bergizi Gratis (MBG) or Free Nutritious Meal program has sparked a nationwide conversation about the future of Indonesia’s human capital. The premise is simple and noble: You cannot build a great nation on empty stomachs.
+                    The launch of the Makan Bergizi Gratis (MBG) or Free Nutritious Meal program has sparked a nationwide conversation about the future of Indonesia's human capital. The premise is simple and noble: You cannot build a great nation on empty stomachs.
+                </p>
+
+                <p>
+                    According to CNBC Indonesia, the Makan Bergizi Gratis (MBG) program is a flagship policy initiative in Indonesia aimed at significantly improving the nation's human capital, particularly focusing on addressing critical issues like stunting and malnutrition among school-age children. Officially proposed as a key part of the new administration's agenda, its primary goal is to ensure universal access to balanced, high-protein meals for students from pre-school through high school. By providing these daily meals, the program intends to boost children's nutritional status, which is directly linked to better cognitive development, enhanced focus in the classroom, and ultimately, a healthier, more productive future workforce for the Indonesia Emas 2045 vision.
+                </p>
+
+                <p>
+                    The Jakarta Post details that the MBG program is designed to be implemented through local governments and schools, often involving existing school cafeteria infrastructure or catering partnerships. Its projected scale is massive, targeting millions of students nationwide, and is consequently tied to significant portions of the national budget, requiring careful fiscal planning and execution. The mechanism often involves providing meals containing specific nutrient profiles, prioritizing protein sources like eggs and milk, in line with official dietary guidelines. However, implementation details, such as standardizing meal content, managing logistics in diverse geographic regions, and ensuring local procurement efficiency, remain subjects of ongoing debate and policy refinement.
+                </p>
+
+                <p>
+                    While public reception to the MBG program is largely positive due to its clear social benefit and direct support for struggling families, policy experts and civil society groups have raised important questions regarding its long-term sustainability and potential economic impact, according to both The Jakarta Post and The Conversation. Reviews often center on its potential inflationary effects on staple food prices, the risk of misallocation of funds, and whether a blanket feeding program is the most cost-effective solution compared to targeted nutritional interventions. Critics, highlighted by The Conversation, emphasize that while MBG solves the immediate problem of hunger, it must be complemented by education, hygiene, and monitoring programs to achieve true, lasting health transformation, echoing the holistic perspective required for Indonesia Emas 2045.
                 </p>
 
                 <p>
@@ -34,7 +46,7 @@ const BlogPost = () => {
                 </p>
 
                 <p>
-                    Reflecting on what we learned in our Physical-Mental Wellbeing class this semester, it’s clear that while a free lunch is a vital foundation, it is merely one pillar of a much larger structure. To truly build "strong" human resources, we need a holistic approach that goes beyond the cafeteria. In class, we learned that health is defined not just as the absence of illness, but as the "overall well-being of your body, your mind, and your relationships with other people." This definition confirms that we cannot focus on physical health alone.
+                    Reflecting on what we learned in our Physical-Mental Wellbeing class this semester, it's clear that while a free lunch is a vital foundation, it is merely one pillar of a much larger structure. To truly build "strong" human resources, we need a holistic approach that goes beyond the cafeteria. In class, we learned that health is defined not just as the absence of illness, but as the "overall well-being of your body, your mind, and your relationships with other people." This definition confirms that we cannot focus on physical health alone.
                 </p>
 
                 <p>
@@ -50,7 +62,7 @@ const BlogPost = () => {
                     From our Nutrition Education & Physical Activity lessons, we know that feeding a child is only half the battle. The other half is teaching them how to eat.
                 </p>
                 <p>
-                    The MBG program provides the food, but does it provide the knowledge? We learned how important "Health Literacy" is—the ability to gather, understand, and use health information. Without this education, students might eat their healthy lunch but return home to diets high in saturated fats and sugars.
+                    The MBG program provides the food, but does it provide the knowledge? We learned how important "Health Literacy" is, the ability to gather, understand, and use health information. Without this education, students might eat their healthy lunch but return home to diets high in saturated fats and sugars.
                 </p>
                 <p>
                     In class, we were introduced to the concept of "Nutrient-Dense Foods." These are foods that contain lots of vitamins and minerals relative to the number of calories. The MBG program must ensure it isn't just providing calories, but specific nutrients needed to regulate bodily functions, promote growth, and repair body tissues. To fully realize this potential, the program must be coupled with educational components.
@@ -82,7 +94,7 @@ const BlogPost = () => {
                     We were taught constructive "Coping Strategies", which are helpful ways to deal with uncomfortable feelings by either improving a situation or allowing a person to handle it better. This is preferred over resorting to temporary, harmful strategies or unconscious "Defense Mechanisms" like denial or acting out. A nutritious meal addresses physical hunger, but we must also feed the mind with resilience and emotional intelligence.
                 </p>
 
-                <h2>3. Safety First: You Can’t Digest in a War Zone</h2>
+                <h2>3. Safety First: You Can't Digest in a War Zone</h2>
                 <p>
                     Our Healthy Relationships classes brought up a critical point: The environment in which a child develops is as important as the nutrients they consume. It identifies "Violence in Schools", including bullying, hazing, and sexual harassment, as major threats to well-being.
                 </p>
@@ -132,6 +144,12 @@ const BlogPost = () => {
                         <span className="tag">#HolisticHealth</span>
                         <span className="tag">#Education</span>
                         <span className="tag">#MBG</span>
+                    </div>
+
+                    <div className="works-cited-button-container">
+                        <a href="/works-cited" className="works-cited-button">
+                            View Works Cited
+                        </a>
                     </div>
                 </div>
             </div>

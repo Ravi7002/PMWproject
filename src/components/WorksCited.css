@@ -1,0 +1,250 @@
+.works-cited {
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    min-height: 100vh;
+}
+
+.works-cited-header {
+    text-align: center;
+    margin-bottom: 4rem;
+    max-width: 900px;
+}
+
+.works-cited-title {
+    font-size: clamp(3rem, 6vw, 5rem);
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(to right, #fff, #a5a5a5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.1;
+}
+
+.works-cited-subtitle {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.works-cited-content {
+    max-width: 900px;
+}
+
+.citation-section {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: var(--bg-tertiary);
+    border-radius: 16px;
+    border: 1px solid var(--border-subtle);
+}
+
+.citation-section h2 {
+    font-size: 1.8rem;
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--accent-primary);
+}
+
+.citation {
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+    background: var(--bg-secondary);
+    border-radius: 12px;
+    border-left: 4px solid var(--accent-primary);
+    transition: all 0.3s ease;
+}
+
+.citation:hover {
+    transform: translateX(8px);
+    box-shadow: 0 4px 20px rgba(99, 102, 241, 0.2);
+}
+
+.citation:last-child {
+    margin-bottom: 0;
+}
+
+.citation-text {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.citation-author {
+    font-weight: 600;
+    color: var(--accent-secondary);
+}
+
+.citation-title {
+    font-style: italic;
+    color: var(--text-primary);
+}
+
+.citation-publication {
+    color: var(--text-secondary);
+}
+
+.citation-date {
+    color: var(--text-secondary);
+}
+
+.citation-url {
+    color: var(--text-tertiary);
+}
+
+.special-thanks-section {
+    margin-bottom: 3rem;
+    padding: 2.5rem;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(168, 85, 247, 0.15));
+    border-radius: 16px;
+    border: 2px solid var(--accent-primary);
+    box-shadow: 0 8px 30px rgba(99, 102, 241, 0.2);
+}
+
+.special-thanks-section h2 {
+    font-size: 1.8rem;
+    color: var(--text-primary);
+    margin-bottom: 2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--accent-primary);
+}
+
+.teacher-thanks {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem;
+    background: var(--bg-secondary);
+    border-radius: 12px;
+}
+
+.teacher-image-container {
+    flex-shrink: 0;
+}
+
+.teacher-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--accent-primary);
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.teacher-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(99, 102, 241, 0.5);
+}
+
+.teacher-info {
+    flex: 1;
+}
+
+.teacher-message {
+    font-size: 1.3rem;
+    color: var(--text-primary);
+    margin-bottom: 0.8rem;
+    font-weight: 500;
+}
+
+.teacher-message strong {
+    color: var(--accent-secondary);
+    font-size: 1.4rem;
+}
+
+.teacher-description {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.back-button-container {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.back-button {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+    color: white;
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.back-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+.back-button:hover::before {
+    left: 100%;
+}
+
+.back-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(99, 102, 241, 0.5);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .works-cited {
+        padding-top: 6rem;
+    }
+
+    .citation-section {
+        padding: 1.5rem;
+    }
+
+    .special-thanks-section {
+        padding: 1.5rem;
+    }
+
+    .teacher-thanks {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .teacher-image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .citation {
+        padding: 1rem;
+    }
+
+    .citation-text {
+        font-size: 0.95rem;
+    }
+
+    .teacher-message {
+        font-size: 1.1rem;
+    }
+
+    .teacher-message strong {
+        font-size: 1.2rem;
+    }
+}
